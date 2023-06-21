@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.form-container {
+  flex: 1;
+  position: relative;
+}
+.output-container {
+  flex: 3;
+}
+
+.result-card {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.result-content p {
+  margin: 0;
+}
+
+.result-content p strong {
+  font-weight: bold;
+}
+
+.skills-row {
+  display: flex;
+  gap: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.vertical-line {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 50%;
+  width: 3px;
+  background-color: black;
+  height: 60%;
+  border: none;
+  margin: 0;
+  transform: translateX(-50%);
+  margin-left: 10px;
+}
+
+.output-container {
+  flex: 1;
+}
